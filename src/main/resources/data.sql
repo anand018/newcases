@@ -1,0 +1,1 @@
+INSERT INTO `state` (`id`, `cases_today`, `cases_yesterday`, `deceased_today`, `name`, `recovered_today`, `tested_today`, `vaccinated_today`) VALUES ('2', '2343', '2334', '243', 'Kerala', '2345', '23453', '234324');

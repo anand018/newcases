@@ -1,0 +1,2 @@
+CREATE SCHEMA `covido`;
+CREATE TABLE IF NOT EXISTS ` state` (`id` int NOT NULL, `cases_today` int DEFAULT NULL, `cases_yesterday` int DEFAULT NULL, `deceased_today` int DEFAULT NULL, `name` varchar(255) DEFAULT NULL, `recovered_today` int DEFAULT NULL, `tested_today` int DEFAULT NULL, `vaccinated_today` int DEFAULT NULL);
