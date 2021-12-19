@@ -15,6 +15,7 @@
 	<description>covid service for new cases</description>
 	<properties>
 		<java.version>11</java.version>
+		<spring-cloud.version>2021.0.0-RC1</spring-cloud.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -51,6 +52,11 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
+			<version>3.1.0</version>
 		</dependency>
 	</dependencies>
 
